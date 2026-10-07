@@ -74,7 +74,8 @@ function App() {
 
             <h2>{editingId ? "Edit Student" : "Add Student"}</h2>
 
-            <input
+
+            <p>name: </p> <input
                 type="text"
                 placeholder="Name"
                 value={name}
@@ -84,6 +85,7 @@ function App() {
             <br />
             <br />
 
+            <p>course: </p>
             <input
                 type="text"
                 placeholder="Course"
@@ -93,7 +95,7 @@ function App() {
 
             <br />
             <br />
-
+            <p>age: </p>
             <input
                 type="number"
                 placeholder="Age"
